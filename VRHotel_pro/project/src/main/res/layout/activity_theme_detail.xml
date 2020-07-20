@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true">
+
+            <ca.uottawa.csi5389.vrhotel.view.MyScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:orientation="vertical">
+
+                        <androidx.viewpager.widget.ViewPager
+                            android:id="@+id/viewPager"
+                            android:layout_width="422dp"
+                            android:layout_height="200dp" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:id="@+id/viewGroup"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginBottom="30dp"
+                                android:gravity="center_horizontal"
+                                android:orientation="horizontal">
+
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:id="@+id/inside_fixed_bar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+                        <include layout="@layout/inside_fixed_bar" />
+
+                        <include layout="@layout/tem_fragment" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ca.uottawa.csi5389.vrhotel.view.MyScrollView>
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

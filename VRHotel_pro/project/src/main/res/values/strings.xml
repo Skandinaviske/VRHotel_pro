@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VR Hotel Finder</string>
+    <string name="main_window">VR Hotel Finder</string>
+    <string name="main_window_button_search">🔎   Search for Hotels</string>
+    <string name="main_window_button_browse">Or browse nearby hotels ></string>
+    <string name="search_window">Search</string>
+    <string name="search_hint">Search</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
