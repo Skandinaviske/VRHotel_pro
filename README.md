@@ -18,7 +18,7 @@ Gallery: 并且通过grid view查看酒店的图片（Unity 3D生成的VR图片�
 <img width="200" src="https://github.com/Skandinaviske/VRHotel_pro/blob/master/IMG/4.jpg"/>  
 
 可使用Google Cardboard进行查看VR模式（通过向下移动Google Cardboard可以实现向前走）:  
-<img width="200" src="https://github.com/Skandinaviske/VRHotel_pro/blob/master/IMG/5.jpg"/>  
+<img width="450" src="https://github.com/Skandinaviske/VRHotel_pro/blob/master/IMG/5.jpg"/>  
 我暂时没有将Unity生成的app上传 因为太大了 Github有点放不下。
 
 
