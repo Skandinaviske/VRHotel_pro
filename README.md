@@ -2,7 +2,7 @@
 
 The VR Hotel Android application.一个可以根据自己喜好用Google Cardboard进行VR模式浏览酒店的App,也可以进行模糊搜索，Google Map定位以及以相册模式浏览酒店VR图片
 
-首先，这个app可以搜索自己喜欢的酒店。登录界面，可以在界面搜索关键字找到自己理想的酒店信息或主：  
+首先，这个app可以搜索自己喜欢的酒店。登录界面，可以在界面搜索关键字找到自己理想的酒店信息或主题：  
 <img width="200" src="https://github.com/Skandinaviske/VRHotel_pro/blob/master/IMG/1.png"/>
 
 利用fragment实现点击按钮切换fragment(包括以下三个fragment显示酒店基本信息)：
