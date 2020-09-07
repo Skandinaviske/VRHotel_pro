@@ -30,7 +30,6 @@ import androidx.fragment.app.Fragment;
  * @param positionId the hotel id.
  */
 
-//Reference: https://stackoverflow.com/questions/22032815/how-to-get-google-maps-object-inside-a-fragment
 public class LocationFragment extends Fragment {
 
     MapView mMapView;
